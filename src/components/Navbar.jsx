@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-indigo-900 via-purple-800 to-black text-white py-4 px-6 shadow-md sticky top-0 z-50 ">
+    <nav className="fixed bg-gradient-to-r from-indigo-900 via-purple-800 to-black text-white py-4 px-6 shadow-md bg-opacity-80 top-0 z-50 w-full">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <Link to="/" className="relative flex items-center justify-center">
