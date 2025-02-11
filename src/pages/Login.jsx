@@ -55,7 +55,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center">
+    <div className="min-h-screen flex justify-center items-center pt-24">
       <div className="card bg-base-100 w-full max-w-sm shadow-2xl">
         <h2 className="text-2xl font-semibold text-center">Login Your Account</h2>
         <form onSubmit={handleSubmit(onSubmit)} className="card-body">

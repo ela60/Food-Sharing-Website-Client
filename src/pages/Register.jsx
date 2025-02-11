@@ -83,7 +83,7 @@ const Register = () => {
   };
 
   return (
-    <div className="flex justify-center items-center py-4">
+    <div className="flex justify-center items-center py-4 pt-24">
       <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
         <h2 className="text-2xl font-semibold text-center">
           Register Your Account

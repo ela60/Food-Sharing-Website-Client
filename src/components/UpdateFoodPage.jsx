@@ -70,8 +70,8 @@ const UpdateFoodPage = () => {
   }
 
   return (
-    <div className="container mx-auto px-4 py-6">
-      <h1 className="text-2xl font-bold mb-4">Update Food</h1>
+    <div className="container mx-auto px-4 py-6 mt-24">
+      <h1 className="text-2xl font-bold mb-4 text-center text-purple-800">Update Food</h1>
       <form onSubmit={handleFormSubmit} className="max-w-md mx-auto">
         <div className="mb-4">
           <label className="block font-medium mb-1">Food Name</label>
@@ -149,7 +149,7 @@ const UpdateFoodPage = () => {
           </button>
           <button
             type="submit"
-            className="px-4 py-2 bg-green-500 text-white rounded"
+            className="px-4 py-2 bg-purple-800 text-white rounded"
           >
             Update Food
           </button>
