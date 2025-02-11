@@ -17,6 +17,7 @@ import ErrorPage from "../components/ErrorPage";
 import Contact from "../ExtraSection/contact";
 import About from "../ExtraSection/About";
 import FAQ from "../ExtraSection/FAQ";
+import Promotions from "../ExtraSection/Promotions";
 
 const Router = createBrowserRouter([
   {
@@ -42,6 +43,11 @@ const Router = createBrowserRouter([
       {
         path: "/faq",
         element: <FAQ/>
+          
+        },
+      {
+        path: "/promotions",
+        element: <Promotions/>
           
         },
         

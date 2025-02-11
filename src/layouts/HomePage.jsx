@@ -7,6 +7,7 @@ import PopularCategories from "../ExtraSection/PopularCategories";
 import AboutSection from "../ExtraSection/AboutSection";
 import PopularTopics from "../ExtraSection/PopularTopics";
 import MovingIcons from "../ExtraSection/MovingIcons";
+import SalesPromotion from "../ExtraSection/SalesPromotion";
 
 
 const HomePage = () => {
@@ -26,7 +27,10 @@ const HomePage = () => {
           <MovingIcons/>
       <section>
         <FoodDonationsPage/>
-          </section>
+      </section>
+      <section>
+        <SalesPromotion/>
+      </section>
           <section>
               <AboutSection/>
           </section>

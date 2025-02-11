@@ -37,7 +37,7 @@ const MyFoodRequests = () => {
   }
 
   return (
-    <div className="p-6 flex flex-col md:flex-row gap-6">
+    <div className="p-6 flex flex-col md:flex-row gap-6 mt-24">
       {/* Left Side: Form */}
       <div className="w-1/3 flex justify-center">
         <img

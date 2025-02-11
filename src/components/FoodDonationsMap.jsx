@@ -58,7 +58,7 @@ const FoodDonationsMap = () => {
         center={[40.7128, -74.0060]} 
         zoom={12}
         scrollWheelZoom={false}
-        style={{ width: '100%', height: '500px' }}
+        style={{ width: '100%', height: '500px', zIndex: 0}}
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -15,9 +15,9 @@ const PopularTopics = () => {
   ];
 
   return (
-    <section className="py-4">
+    <section className="py-4 mt-6">
       <div className="container mx-auto px-6 overflow-hidden">
-        <h2 className="text-xl font-bold mb-4 text-purple-800">Popular Topics</h2>
+        <h2 className="text-2xl font-bold mb-4 text-purple-800">Recent Up Coming Foods</h2>
         <div className="relative w-full">
           <motion.div
             className="flex space-x-4"
