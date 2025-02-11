@@ -50,7 +50,7 @@ const AddFood = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-4">
+    <div className="max-w-2xl mx-auto p-4 pt-24">
       <h1 className="text-2xl font-semibold mb-4">Add Food</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -106,7 +106,7 @@ const AddFood = () => {
         ></textarea>
         <button
           type="submit"
-          className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
+          className="bg-gradient-to-r from-indigo-900 via-purple-800 to-black text-white py-2 px-4 rounded hover:bg-green-600"
           disabled={mutation.isLoading}
         >
           {mutation.isLoading ? "Adding..." : "Add Food"}

@@ -50,7 +50,7 @@ const ManageFoods = () => {
   };
 
   return (
-    <div>
+    <div className="pt-24">
       <h1 className="text-2xl font-bold mb-4">Manage Your Foods</h1>
       {foods.length === 0 ? (
         <p className="text-center"><span className="loading loading-spinner text-error"></span></p>
@@ -76,7 +76,7 @@ const ManageFoods = () => {
 foodQuantity}</td>
                 <td className="border p-2 text-center">
                   <button
-                    className="bg-green-500 text-white px-4 py-2 rounded mr-2"
+                    className="bg-gradient-to-r from-indigo-900 via-purple-800 to-black text-white px-4 py-2 rounded mr-2"
                     onClick={() => handleUpdate(food._id)}
                   >
                     Update

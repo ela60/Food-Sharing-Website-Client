@@ -65,7 +65,7 @@ const FoodDetails = () => {
   }
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 mt-24">
       <div className="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col lg:flex-row">
         {/* Image Section */}
         <div className="lg:w-1/2 w-full">
@@ -118,7 +118,7 @@ const FoodDetails = () => {
 
           <button
             onClick={() => setIsModalOpen(true)}
-            className="mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
+            className="mt-4 bg-purple-800 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
           >
             Request Food
           </button>

@@ -41,8 +41,8 @@ const FoodDonationsMap = () => {
 
   return (
     <div className="bg-gray-200 p-8 rounded-lg shadow-lg max-w-4xl mx-auto mt-12">
-      <h2 className="text-center text-2xl font-bold text-green-600 mb-6">Food Donations Map</h2>
-      <p className="text-green-800 text-center mb-4">
+      <h2 className="text-center text-2xl font-bold text-purple-800 mb-6">Food Donations Map</h2>
+      <p className="text-purple-800 text-center mb-4">
       Explore the locations of available food donations on the map. Click on
         a marker to view details about the donation, including the donor's name,
         email, pickup location, and expiration date.

@@ -9,7 +9,7 @@ const BannerSlider = () => {
     "/images/(1).webp",  // Path to banner1.webp
     "/images/2.jpg",  // Path to banner2.jpg
     "/images/3.jpg",  // Path to banner3.jpg
-    "/images/6.webp",  // Path to banner4.jfif
+    "/images/10.jpeg",  // Path to banner4.jfif
     "/images/5(1).jpg",  // Path to banner5.jfif
   ];
 

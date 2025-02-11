@@ -53,7 +53,7 @@ const AvailableFoods = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-4">
+    <div className="max-w-6xl mx-auto p-4 pt-24">
       <h1 className="text-2xl font-bold mb-4 text-center md:text-left">Available Foods</h1>
 
       {/* Search Input */}
@@ -69,7 +69,7 @@ const AvailableFoods = () => {
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
         <button
           onClick={handleSort}
-          className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 text-sm md:text-base"
+          className="bg-gradient-to-r from-indigo-900 via-purple-800 to-black text-white  py-2 px-4 rounded hover:bg-green-600 text-sm md:text-base"
         >
           Sort by Expiry Date ({sortOrder === "asc" ? "Ascending" : "Descending"})
         </button>
@@ -77,7 +77,7 @@ const AvailableFoods = () => {
         {/* Layout toggle button */}
         <button
           onClick={toggleLayout}
-          className="bg-green-600 text-white py-2 px-4 rounded hover:bg-gray-600 text-sm md:text-base"
+          className="bg-gradient-to-r from-indigo-900 via-purple-800 to-black text-white py-2 px-4 rounded hover:bg-gray-600 text-sm md:text-base"
         >
           Switch to {isThreeColumnLayout ? "2 Column" : "3 Column"} Layout
         </button>
@@ -114,7 +114,7 @@ const AvailableFoods = () => {
               <p className="text-sm md:text-base">Status: {food.foodStatus}</p>
               <button
                 onClick={() => navigate(`/foods/${food._id}`)}
-                className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 mt-4 block w-full text-sm md:text-base"
+                className="bg-gradient-to-r from-indigo-900 via-purple-800 to-black text-white py-2 px-4 rounded hover:bg-green-600 mt-4 block w-full text-sm md:text-base"
               >
                 View Details
               </button>

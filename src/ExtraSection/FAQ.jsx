@@ -49,7 +49,7 @@ const FAQ = () => {
               className="w-full text-left flex justify-between items-center py-3 text-lg font-medium text-gray-700 focus:outline-none"
             >
               {faq.question}
-              <span className="text-green-600">
+              <span className="text-purple-800">
                 {openIndex === index ? "−" : "+"}
               </span>
             </button>
