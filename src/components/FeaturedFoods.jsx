@@ -40,7 +40,7 @@ const FeaturedFoods = () => {
 
              {/* "See More" Button */}
              <button
-              className="mt-2 bg-purple-800 text-white px-4 py-2 rounded hover:bg-green-600 transition w-full"
+              className="btn btn-outline mt-2 px-3 hover:bg-purple-700"
               onClick={() => navigate(`/foods/${food._id}`)}
             >
               See More
