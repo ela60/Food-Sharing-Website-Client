@@ -35,9 +35,9 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="py-10 bg-purple-600">
+    <section className="py-10 ">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center text-green-900 mb-8">Why Choose Our Food Sharing Website?</h2>
+        <h2 className="text-3xl font-bold text-center text-purple-900 mb-8">Why Choose Our Food Sharing Website?</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative">
           {features.map((feature, index) => (
             <div
