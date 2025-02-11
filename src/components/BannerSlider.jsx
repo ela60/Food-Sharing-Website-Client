@@ -29,7 +29,7 @@ const BannerSlider = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <div className="absolute inset-0 w-full h-full overflow-hidden">
+      <div className="absolute inset-0 w-full h-full overflow-hidden pt-20">
         <div
           className="flex transition-transform duration-1000 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }} 

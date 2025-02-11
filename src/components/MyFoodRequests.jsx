@@ -32,7 +32,7 @@ const MyFoodRequests = () => {
 
   if (!user) {
     return (
-      <p className="text-center mt-4">Please log in to view your food requests.</p>
+      <p className="text-center mt-8">Please log in to view your food requests.</p>
     );
   }
 

@@ -14,6 +14,9 @@ import FoodDetails from "../components/FoodDetails";
 import HomePage from "../layouts/HomePage";
 import UpdateFoodPage from "../components/UpdateFoodPage";
 import ErrorPage from "../components/ErrorPage";
+import Contact from "../ExtraSection/contact";
+import About from "../ExtraSection/About";
+import FAQ from "../ExtraSection/FAQ";
 
 const Router = createBrowserRouter([
   {
@@ -25,6 +28,21 @@ const Router = createBrowserRouter([
             element:  <section>
             <HomePage/>
         </section>
+      },
+      {
+        path: "/contact",
+        element: <Contact/>
+          
+        },
+      {
+        path: "/about",
+        element: <About/>
+          
+        },
+      {
+        path: "/faq",
+        element: <FAQ/>
+          
         },
         
       {
