@@ -12,7 +12,7 @@ The **Food Sharing Platform** is a community-driven web application designed to 
 
 ## **Live Demo**
 
-🔗 [**https://food-sharing-fde2a.web.app/**]
+🔗 [**https://bucolic-dango-3b417b.netlify.app/**]
 
 ---
 

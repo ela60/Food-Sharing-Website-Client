@@ -25,7 +25,7 @@ const HomePage = () => {
               <PopularCategories/>
           </section>
           <MovingIcons/>
-      <section>
+      <section >
         <FoodDonationsPage/>
       </section>
       <section>

@@ -36,25 +36,25 @@ const FAQ = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4 py-12">
-      <div className="max-w-3xl w-full bg-white shadow-lg rounded-lg p-6">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
+    <div className="min-h-screen flex items-center justify-center px-4 py-12 dark:bg-gray-900">
+      <div className="max-w-3xl w-full bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6">
+        <h2 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-6">
           Frequently Asked Questions
         </h2>
 
         {faqs.map((faq, index) => (
-          <div key={index} className="mb-4 border-b">
+          <div key={index} className="mb-4 border-b border-gray-300 dark:border-gray-600">
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full text-left flex justify-between items-center py-3 text-lg font-medium text-gray-700 focus:outline-none"
+              className="w-full text-left flex justify-between items-center py-3 text-lg font-medium text-gray-700 dark:text-gray-300 focus:outline-none"
             >
               {faq.question}
-              <span className="text-purple-800">
+              <span className="text-purple-800 dark:text-purple-400">
                 {openIndex === index ? "−" : "+"}
               </span>
             </button>
             {openIndex === index && (
-              <p className="text-gray-600 pb-4">{faq.answer}</p>
+              <p className="text-gray-600 dark:text-gray-300 pb-4">{faq.answer}</p>
             )}
           </div>
         ))}
