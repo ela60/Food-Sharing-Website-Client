@@ -79,7 +79,7 @@ const Footer = () => {
             </h3>
             <ul>
               <li className="flex items-center mb-3">
-                <FaEnvelope className="text-green-500 mr-2" />
+                <FaEnvelope className="text-yellow-500 mr-2" />
                 <span className="text-gray-400">support@foodshare.com</span>
               </li>
               <li className="flex items-center mb-3">
@@ -142,7 +142,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-r-lg"
+                className="bg-yellow-500 hover:bg-green-600 text-white px-6 py-2 rounded-r-lg"
               >
                 Subscribe
               </button>
